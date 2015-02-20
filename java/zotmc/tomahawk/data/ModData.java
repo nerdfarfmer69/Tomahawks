@@ -9,7 +9,7 @@ import com.google.common.collect.Lists;
 import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.ModMetadata;
 
-@Requirements({"1.7 = 1.7", "1.6 = [1.6, 1.7)"})
+@Requirements({"1.8 = 1.8", "1.7 = [1.7, 1.8)"})
 public class ModData {
 
 	public static class AxeTomahawk {
@@ -44,7 +44,7 @@ public class ModData {
 
 
 	@Dependency
-	@Requirements({"1.7.10 = 10.13.0.1207", "1.7.2 = 10.12.2.1121", "1.6.4 = 9.11.1.965", "1.6.2 = 9.10.1.804"})
+	@Requirements({"1.8 = 11.14.1.1319", "1.7.10 = 10.13.0.1207", "1.7.2 = 10.12.2.1121", "1.6.4 = 9.11.1.965", "1.6.2 = 9.10.1.804"})
 	public static class Forge {
 		@Modid public static final String MODID = "Forge";
 	}
